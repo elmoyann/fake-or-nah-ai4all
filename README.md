@@ -18,8 +18,7 @@ Fake news has been a great problem, whether its purpose is to spread propaganda,
 (UPDATE IN README.md)
 
 *EXAMPLE:*
-*To accomplish this, we utilized the OpenAI API to interact with ChatGPT, and we designed a custom Python script to generate diverse prompts and collect corresponding responses. The data was then processed and analyzed using pandas, enabling us to detect patterns and biases in the AI model's outputs.*
-*Engineered a Python script to generate over 1,000 prompts and elicit their responses from ChatGPT, utilizing pandas to collect the data. When prompted for solutions to this specific relevant crisis, nearly 80% of ChatGPT's responses promoted a certain worldview.*
+*To investigate how linguistic cues can help distinguish real news from fabricated stories, we trained a series of supervised machine learning models using the Fake-and-Real-News Dataset from Kaggle. After combining and labeling both CSV files, we performed data cleaning, removed duplicates, and conducted exploratory analysis to identify topical or source-related biases. We then preprocessed the text using tokenization, minimal normalization, and feature extraction, incorporating both transformer-ready text inputs and engineered linguistic features such as n-gram frequencies, sentiment, readability scores, and part-of-speech distributions. Our experiments compared classical models (including logistic regression, SVM, and XGBoost), deep learning approaches, and transformer-based architectures fine-tuned for binary classification. All models were trained using a stratified train-validation-test split, with an additional source-holdout set to check for overfitting and leakage. Performance was evaluated using accuracy, precision, recall, F1 score, and error analysis to assess which linguistic signals the models relied on and how well they generalized to unseen data.*
 
 
 ## Data Sources <!--- do not change this line -->
